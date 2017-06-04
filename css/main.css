@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.tarjeta {
+	width: 450px;
+	height: 260px;
+	background-image: url('../img/tarjetafondo.jpg');
+	background-repeat: no-repeat;
+}
+
+.parte-gris {
+	width: 168px;
+	height: 0;
+	border-bottom: 260px solid #3C3C3B;
+	border-left: 260px solid transparent;
+	position: relative;
+	top: 0;
+	left: 69px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway' sans-serif;
+	text-align: right;
+	line-height: 100%;
+}
+h1 {
+	font-size: 1.2rem;
+	margin-top: -10px;
+	color: whitesmoke;
+	position: relative;
+	top: -200px;
+	left: 20px;
+}
+
+h2 {
+	font-size: 0.9rem;
+	color: #FCB425;
+	position: relative;
+	top: -195px;
+	left: 22px;
+}
+
+.address {
+	font-size: 16px;
+	font-family: 'Raleway' sans-serif;
+	text-align: center;
+	color: whitesmoke;
+	position: relative;
+	bottom: 141px;
+	right: -148px;
+}
+
+.logoLab1 {
+	position: relative;
+	background-image: url('../img/Laboratoria_Isotipo CodeAcademy.png');
+	background-size: cover;
+	width: 45px;
+	height: 45px;
+	left: 452px;
+	bottom: 159px;
+}
+
+.logoLab2{
+	background-image: url('../img/Laboratoria_Logo.png');
+    background-position-y: top;
+    background-size: 194px, cover;
+    background-repeat: repeat-x;
+    background-position-x: 112px, left;
+    width: 500px;
+    height: 220px;
+    position: relative;
+    top: -420px;
+    left: -306px;
+}
+}
